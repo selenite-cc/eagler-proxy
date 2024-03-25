@@ -1,3 +1,5 @@
 {
-    "/test": "wss://web.asspixel.net/CAPixel/"
+    "/pixel": "wss://web.asspixel.net/CAPixel/",
+    "/arch": "wss://mc.arch.lol",
+    "/zentic": "wss://zentic.cc"
 }
