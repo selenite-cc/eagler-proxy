@@ -3,7 +3,7 @@ const fs = require("fs");
 const { createServer } = require('node:http');
 const app = createServer();
 let servers = {};
-const wss = new WebSocket.Server({ server: app.listen(25565) });
+const wss = new WebSocket.Server({ server: app.listen(80) });
 
 wss.on("connection", (ws, req) => {
 	ws.on("message", (message) => {
